@@ -1,0 +1,13 @@
+﻿  pacman.cpp
+  monster.cpp
+  labernth.cpp
+  init.cpp
+  gamestart.cpp
+  gameresult.cpp
+  gameover.cpp
+  food.cpp
+  createpacman.cpp
+  control.cpp
+  正在生成代码...
+  Pacman.vcxproj -> G:\Game\Pacman\Pacman\Debug\Pacman.exe
+  Pacman.vcxproj -> G:\Game\Pacman\Pacman\Debug\Pacman.pdb (Full PDB)

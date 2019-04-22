@@ -1,0 +1,49 @@
+﻿  control.cpp
+control.cpp(34): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+control.cpp(35): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+control.cpp(40): warning C4244: “参数”: 从“float”转换到“unsigned __int64”，可能丢失数据
+control.cpp(48): warning C4244: “参数”: 从“float”转换到“unsigned __int64”，可能丢失数据
+control.cpp(56): warning C4244: “参数”: 从“float”转换到“unsigned __int64”，可能丢失数据
+control.cpp(64): warning C4244: “参数”: 从“float”转换到“unsigned __int64”，可能丢失数据
+  createpacman.cpp
+createpacman.cpp(11): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+createpacman.cpp(12): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+createpacman.cpp(14): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+createpacman.cpp(15): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+createpacman.cpp(16): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+createpacman.cpp(17): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+  food.cpp
+food.cpp(20): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+  gameover.cpp
+  gameresult.cpp
+  gamestart.cpp
+gamestart.cpp(14): warning C4305: “参数”: 从“double”到“GLclampf”截断
+gamestart.cpp(54): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+gamestart.cpp(55): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+gamestart.cpp(55): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+gamestart.cpp(62): warning C4305: “参数”: 从“double”到“float”截断
+gamestart.cpp(63): warning C4305: “参数”: 从“double”到“float”截断
+  init.cpp
+  labernth.cpp
+  monster.cpp
+monster.cpp(11): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+monster.cpp(12): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+monster.cpp(14): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+monster.cpp(15): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+monster.cpp(16): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+monster.cpp(17): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+monster.cpp(24): warning C4305: “参数”: 从“double”到“GLfloat”截断
+monster.cpp(48): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+monster.cpp(50): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+monster.cpp(59): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+monster.cpp(61): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+monster.cpp(70): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+monster.cpp(72): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+monster.cpp(81): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+monster.cpp(83): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  pacman.cpp
+  正在生成代码
+  All 534 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  Pacman.vcxproj -> C:\Users\ai\Desktop\Pacman\Pacman\x64\Release\Pacman.exe
+  Pacman.vcxproj -> C:\Users\ai\Desktop\Pacman\Pacman\x64\Release\Pacman.pdb (Full PDB)
