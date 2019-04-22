@@ -66,6 +66,22 @@ void keyOperations() {
 			rotation = 1;
 		}
 	}
+	if (keyStates['1']) {
+		pacman_speed += 1;
+		cout << "Current Pacman Speed : " << pacman_speed << endl;
+	}
+	if (keyStates['2']) {
+		pacman_speed -= 1;
+		cout << "Current Pacman Speed : " << pacman_speed << endl;
+	}
+	if (keyStates['3']) {
+		monster_speed += 1;
+		cout << "Current Monster Speed : " << monster_speed << endl;
+	}
+	if (keyStates['4']) {
+		monster_speed -= 1;
+		cout << "Current Monster Speed : " << monster_speed << endl;
+	}
 	if (keyStates[' ']) {
 		if (!replay && over) {
 			resetGame();

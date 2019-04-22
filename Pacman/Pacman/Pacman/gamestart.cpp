@@ -17,7 +17,7 @@ void welcomeScreen() {
 	glRasterPos2f(150, 200);
 	while (it != message.end())
 		glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, *it++);
-	message = "Pacman V1.0 - by Zutterhao";
+	message = "Pacman v1.0 - by Zutterhao";
 	glColor3f(1, 1, 1);
 	glRasterPos2f(225, 250);
 	it = message.begin();
@@ -28,13 +28,18 @@ void welcomeScreen() {
 	it = message.begin();
 	while (it != message.end())
 		glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, *it++);
-	message = "To control Pacman use A to go right, D to go left, W to go up and S to go down.";
-	glRasterPos2f(50, 400);
+	message = "Use key to control Pacman: A--Left, D--Right, W--Up, S--Down";
+	glRasterPos2f(90, 400);
 	it = message.begin();
 	while (it != message.end())
 		glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, *it++);
-	message = "To start or restart the game, press the space key.";
-	glRasterPos2f(170, 450);
+	message = "1/2--Pacman speed up/down, 3/4--Monster speed up/down";
+	glRasterPos2f(90, 450);
+	it = message.begin();
+	while (it != message.end())
+		glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, *it++);
+	message = "Press the space key to start or restart the game.";
+	glRasterPos2f(170, 500);
 	it = message.begin();
 	while (it != message.end())
 		glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, *it++);
